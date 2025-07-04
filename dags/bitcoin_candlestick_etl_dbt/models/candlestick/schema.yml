@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: candlestick
+    description: "model to represent ohlc prices of bitcoin"
+    columns:
+      - name: daydate
+        description: "Date of the trading day"
+      - name: open
+        description: "opening price of the day"
+      - name: close
+        description: "closing price of the day"
+      - name: low
+        description: "lowest price of the day"
+      - name: high
+        description: "lowest price of the day"
+

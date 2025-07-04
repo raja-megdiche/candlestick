@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: bronze layer containing raw trading data
+    tables:
+      - name: trading_data
+        database: bronze
+        columns:
+          - name: datetime
+            description: datetime of the price
+          - name: price
+            description: price of the stock
+

@@ -1,0 +1,8 @@
+bitcoin_candlestick_etl_dbt:
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/bitcoin.db
+      threads: 1
+
+  target: dev
